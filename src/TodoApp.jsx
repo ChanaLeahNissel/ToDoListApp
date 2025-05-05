@@ -8,8 +8,8 @@ function TodoApp({ items }){
     const[list, setList] = useState([]);
     const[inputValue, setInputValue] = useState("");
 
-    const handleChange = (event) => {
-      setInputValue(event.target.value);
+    const handleChange = (e) => {
+      setInputValue(e.target.value);
     };
 
     const handleSubmit = (event) => {
