@@ -1,6 +1,3 @@
-{*/Chana Leah Nissel*/}
-{*/5/5/25*/}
-
 import './ToDoList.css';
 import TodoApp from './TodoApp.jsx';
 
